@@ -34,3 +34,4 @@ Assignment 2
 4:09am : Again getting the errors in startup.cs file after building the project.
 4:17am : After changing the refernce of Data field to DataAccess,it finally works and showing 0 errors.
 4:20am : Build the project but again it showing the error in ErrorViewModel.
+4:24am : After solving the previous error. Now getting the new two errors:(.So much tired and sleepy but have to complete the assignment:(.
