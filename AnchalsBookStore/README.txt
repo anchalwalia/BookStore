@@ -27,3 +27,4 @@ Assignment 2
 3:43am : Deleted the migartion folder. 
 3:46am : Installed the NuGet package identity framework.
 3:49am : Adding the data access in namespace in ApplicationDbcontext.cs.
+3:51am : Deleted all the three default class1.css files from the project.
