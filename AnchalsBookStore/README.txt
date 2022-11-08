@@ -30,3 +30,5 @@ Assignment 2
 3:51am : Deleted all the three default class1.css files from the project.
 3:55am : Build the project but get three errors in Statup.cs file and trying to solve it in next step.
 3:58am : Moved Models into AnchalsBooks.Models and deleted the original one.
+4:04am : Added the project reference, renamed the models folder and done the Change the ErrorViewModels.cs namespace to .Models.ViewModels.
+
