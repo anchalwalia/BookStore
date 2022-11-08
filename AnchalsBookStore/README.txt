@@ -15,3 +15,4 @@ Assignment 2
 2:08am : Added the additional properties to the footer class in _Layout.cshtml.
 2:13am : Forget to replace the given site.css file so replaced that file with the file given in blackboard.
 2:20am : Added the additional stylesheets and scripts given in CSS_JS.txt file in blackboard in _Layout.cshtml file.
+2:23am : Added the dropdown navbar code from the theme selected from the Bootswatch.com in _Layout.cshtml.
