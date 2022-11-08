@@ -19,3 +19,8 @@ Assignment 2
 2:35am : Added the dropdown in _Layout.cshtml but after running on browser it just display the text content Management
          but dropdown is not working so i found that the version given in bootstrap.css is 5.2 and we have to use 4.3 
          or 4.6 so again downloaded the file in 4.6 version and repeat the step and now it works.
+2:40am : Taking a break for 30 minutes and after that i will start again.
+3:10am : Back after the break.
+
+
+
