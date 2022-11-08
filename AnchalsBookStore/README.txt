@@ -16,3 +16,6 @@ Assignment 2
 2:13am : Forget to replace the given site.css file so replaced that file with the file given in blackboard.
 2:20am : Added the additional stylesheets and scripts given in CSS_JS.txt file in blackboard in _Layout.cshtml file.
 2:23am : Added the dropdown navbar code from the theme selected from the Bootswatch.com in _Layout.cshtml.
+2:35am : Added the dropdown in _Layout.cshtml but after running on browser it just display the text content Management
+         but dropdown is not working so i found that the version given in bootstrap.css is 5.2 and we have to use 4.3 
+         or 4.6 so again downloaded the file in 4.6 version and repeat the step and now it works.
