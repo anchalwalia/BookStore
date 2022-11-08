@@ -13,3 +13,4 @@ Assignment 2
          bg-white to bg-primary and remove the text-dark in line 23 from the _Layout.cshtml.
 2:02am : Removed the text-dark from the _LoginPartial.cshtml.
 2:08am : Added the additional properties to the footer class in _Layout.cshtml.
+2:13am : Forget to replace the given site.css file so replaced that file with the file given in blackboard.
