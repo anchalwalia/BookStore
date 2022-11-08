@@ -12,3 +12,4 @@ Assignment 2
 1:57am : Changed the file name from bootstrap.min.cs to bootstrap.cs. Also Replace the navbar-light to navbar-dark, 
          bg-white to bg-primary and remove the text-dark in line 23 from the _Layout.cshtml.
 2:02am : Removed the text-dark from the _LoginPartial.cshtml.
+2:08am : Added the additional properties to the footer class in _Layout.cshtml.
