@@ -32,5 +32,5 @@ Assignment 2
 3:58am : Moved Models into AnchalsBooks.Models and deleted the original one.
 4:04am : Added the project reference, renamed the models folder and done the Change the ErrorViewModels.cs namespace to .Models.ViewModels.
 4:09am : Again getting the errors in startup.cs file after building the project.
-4:17am:  After changing the refernce of Data field to DataAccess,it finally works and showing 0 errors.
-
+4:17am : After changing the refernce of Data field to DataAccess,it finally works and showing 0 errors.
+4:20am : Build the project but again it showing the error in ErrorViewModel.
