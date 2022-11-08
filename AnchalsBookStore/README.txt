@@ -24,5 +24,6 @@ Assignment 2
 3:18am : Added all three projects to application.
 3:20am : Pasted the data folder into data access folder and deleted the existing one.
 3:41am : Installed the microsoft packages.
+3:43am : Deleted the migartion folder. 
 
 
