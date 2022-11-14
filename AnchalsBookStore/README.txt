@@ -69,3 +69,4 @@ Assignment 2
 5:46pm : New class Category.cs is added to Models and also modify and add data in it.
 5:48pm : Migration via PM console is added.
 5:50pm : Updated using and added a new line in ApplicationDbContext.cs.
+5:58pm : updated Database  and confirm that the new categories table is shown in sql.
