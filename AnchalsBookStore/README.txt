@@ -66,3 +66,6 @@ Assignment 2
 5:09pm : New migration file name -"20221114220717_AddDefaultIdentityMigration.cs"
 5:20pm : Due to removing semicolon from appsetting.json the name of file in sql is not appearing right so again deleted the migration folder and run the 
          migration command again & updated it.
+5:46pm : New class Category.cs is added to Models and also modify and add data in it.
+5:48pm : Migration via PM console is added.
+5:50pm : Updated using and added a new line in ApplicationDbContext.cs.
