@@ -54,3 +54,7 @@ Assignment 2
 4:27pm : New admin ia added in area.
 4:28pm : Data and Model folder is deleted from Areas.
 4:48pm : Again pasted the readme from github because all new changes are removed due to merge conflict.
+
+
+{Part 2}
+4:50pm : Build the application to confirm that there are no error in part 1.
