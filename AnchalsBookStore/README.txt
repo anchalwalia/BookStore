@@ -49,3 +49,4 @@ Assignment 2
 4:13pm : IIs express error is occured and the error is in dll file so restarted  IIs service and resolved the error. Finally it solved and
          the project run.
 4:20pm :  Both _View files are also pasted in Area.
+4:24pm : Modified the path of _ViewStart.cshtml.
