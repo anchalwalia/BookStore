@@ -64,3 +64,5 @@ Assignment 2
          containing the DbContext.". 
 5:05pm : By changing the default project to AnchalsBooks.DataAccess,the erroe get solved.
 5:09pm : New migration file name -"20221114220717_AddDefaultIdentityMigration.cs"
+5:20pm : Due to removing semicolon from appsetting.json the name of file in sql is not appearing right so again deleted the migration folder and run the 
+         migration command again & updated it.

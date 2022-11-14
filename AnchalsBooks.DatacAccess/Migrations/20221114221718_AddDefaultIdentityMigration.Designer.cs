@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnchalsBooks.DatacAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221114220717_AddDefaultIdentityMigration")]
+    [Migration("20221114221718_AddDefaultIdentityMigration")]
     partial class AddDefaultIdentityMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
