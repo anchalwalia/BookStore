@@ -46,3 +46,4 @@ Assignment 2
 3:59pm : Moved the HomeController.cs to Controller file in Area and deleted models and data from it.
 4:01pm : Defined the controller in HomeController.cs.
 4:02pm : Moved Home in Views to Area in view and then modified the namespace in HomeController.cs.
+4:13pm : IIs express error is occured and the error is in dll file so restarted  IIs service and resolved the error. Finally it solved and the project run.
