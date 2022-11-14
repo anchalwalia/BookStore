@@ -50,3 +50,4 @@ Assignment 2
          the project run.
 4:20pm :  Both _View files are also pasted in Area.
 4:24pm : Modified the path of _ViewStart.cshtml.
+4:27pm : New admin ia added in area.
