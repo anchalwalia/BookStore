@@ -59,3 +59,8 @@ Assignment 2
 {Part 2}
 4:50pm : Build the application to confirm that there are no error in part 1.
 4:52pm : Modified the database name and save it in appsettings.json file. 
+5:00pm : OOps !Get the error by running the migration command.the error it's showing is "Change your migrations assembly by using DbContextOptionsBuilder.
+         E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("AnchalsBookStore")). By default, the migrations assembly is the assembly 
+         containing the DbContext.". 
+5:05pm : By changing the default project to AnchalsBooks.DataAccess,the erroe get solved.
+5:09pm : New migration file name -"20221114220717_AddDefaultIdentityMigration.cs"
