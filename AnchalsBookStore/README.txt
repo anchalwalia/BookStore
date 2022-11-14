@@ -35,3 +35,21 @@ Assignment 2
 4:17am : After changing the refernce of Data field to DataAccess,it finally works and showing 0 errors.
 4:20am : Build the project but again it showing the error in ErrorViewModel.
 4:24am : After solving the previous error. Now getting the new two errors:(.So much tired and sleepy but have to complete the assignment:(.
+
+
+14 November 2022
+3:23pm : Changed the reference name of model in error.cshtml file.
+3:34pm : Added Static class SD.cs in utility project and modeified it's property.
+3:37pm : Added project reference to the main project.
+3:38pm : Added project reference to models and utility in DataAccess project.
+3:52pm : Customer area is added to Area .
+3:58pm : Change the routes in Startup.cs.
+3:59pm : Moved the HomeController.cs to Controller file in Area and deleted models and data from it.
+4:01pm : Defined the controller in HomeController.cs.
+4:02pm : Moved Home in Views to Area in view and then modified the namespace in HomeController.cs.
+4:13pm : IIs express error is occured and the error is in dll file so restarted  IIs service and resolved the error. Finally it solved and
+         the project run.
+4:20pm :  Both _View files are also pasted in Area.
+4:24pm : Modified the path of _ViewStart.cshtml.
+4:27pm : New admin ia added in area.
+4:28pm : Data and Model folder is deleted from Areas.
