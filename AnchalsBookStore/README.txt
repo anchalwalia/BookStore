@@ -35,3 +35,6 @@ Assignment 2
 4:17am : After changing the refernce of Data field to DataAccess,it finally works and showing 0 errors.
 4:20am : Build the project but again it showing the error in ErrorViewModel.
 4:24am : After solving the previous error. Now getting the new two errors:(.So much tired and sleepy but have to complete the assignment:(.
+
+14 November 2022
+3:23pm : Changed the reference name of model in error.cshtml file.
