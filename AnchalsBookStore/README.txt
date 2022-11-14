@@ -38,3 +38,6 @@ Assignment 2
 
 14 November 2022
 3:23pm : Changed the reference name of model in error.cshtml file.
+3:34pm : Added Static class SD.cs in utility project and modeified it's property.
+3:37pm : Added project reference to the main project.
+3:38pm : Added project reference to models and utility in DataAccess project.
