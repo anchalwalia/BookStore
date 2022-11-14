@@ -53,3 +53,4 @@ Assignment 2
 4:24pm : Modified the path of _ViewStart.cshtml.
 4:27pm : New admin ia added in area.
 4:28pm : Data and Model folder is deleted from Areas.
+4:48pm : Again pasted the readme from github because all new changes are removed due to merge conflict.
