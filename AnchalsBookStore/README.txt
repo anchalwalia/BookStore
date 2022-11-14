@@ -41,3 +41,8 @@ Assignment 2
 3:34pm : Added Static class SD.cs in utility project and modeified it's property.
 3:37pm : Added project reference to the main project.
 3:38pm : Added project reference to models and utility in DataAccess project.
+3:52pm : Customer area is added to Area .
+3:58pm : Change the routes in Startup.cs.
+3:59pm : Moved the HomeController.cs to Controller file in Area and deleted models and data from it.
+4:01pm : Defined the controller in HomeController.cs.
+4:02pm : Moved Home in Views to Area in view and then modified the namespace in HomeController.cs.
