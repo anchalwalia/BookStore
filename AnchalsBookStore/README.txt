@@ -70,3 +70,5 @@ Assignment 2
 5:48pm : Migration via PM console is added.
 5:50pm : Updated using and added a new line in ApplicationDbContext.cs.
 5:58pm : updated Database  and confirm that the new categories table is shown in sql.
+6:28pm : Created new folder Repository and also add a interface IRepository.cs
+6:34pm : Added Crud operations in IRepository.cs.
