@@ -58,3 +58,4 @@ Assignment 2
 
 {Part 2}
 4:50pm : Build the application to confirm that there are no error in part 1.
+4:52pm : Modified the database name and save it in appsettings.json file. 
