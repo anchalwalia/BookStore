@@ -88,3 +88,4 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 3:37am : Created a new interface IUnitOfWork.cs and update the code.
 3:39am : Created a new class UnitOfWork.cs and modified it's data.
 4:02am : Registered both files of UnitOfWork in Startup.cs.
+4:04am : Added a new Mvc controller named CategoryController.cs in Admin folder in Area.
