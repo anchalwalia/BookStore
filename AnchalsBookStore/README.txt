@@ -91,3 +91,4 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 4:04am : Added a new Mvc controller named CategoryController.cs in Admin folder in Area.
 4:22am : Modified the data in CategoryController.cs.
 4:39am : Added a new folder 'index' view to view in area and modify it's code with the code given in blackboard and test it. Happy to see it working:).
+4:46am :  Moved the Category link to content Management drop down.
