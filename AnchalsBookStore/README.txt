@@ -73,6 +73,9 @@ Assignment 2
 6:28pm : Created new folder Repository and also add a interface IRepository.cs
 6:34pm : Added Crud operations in IRepository.cs.
 6:55pm : Created a new repository class in repository folder and modified the data with the data given in same file in blackboard.
+
+15 Novembwe 2022
 12:29am : At 7 pm i leave from collge and have gone to freshco for getting the necessary grocery for myself and now after prepearing 
           my dinner and having it, i am back to work.
-12:30am : Added CategoryRepository.cs and ICategoryRepository.cs in Repository.
+12:30am : Added CategoryRepository.cs class and ICategoryRepository.cs interface in Repository
+12:41am : CategoryRepository.cs is modified.
