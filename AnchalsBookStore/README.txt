@@ -82,3 +82,4 @@ Assignment 2
 1:01am : Update method in Categorypository.cs is modified.
 1:30am : Created new interface ISP_Call.cs which extends IDisposible.
 1:33am : Installed Dapper.
+2:08am : Added new class SP_Call.cs in Repository folder and also implemented class methods and properties.
