@@ -1,3 +1,5 @@
+using AnchalsBooks.DatacAccess.Repository;
+using AnchalsBooks.DatacAccess.Repository.IRepository;
 using AnchalsBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -37,7 +39,7 @@ namespace AnchalsBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

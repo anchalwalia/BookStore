@@ -75,7 +75,7 @@ Assignment 2
 6:55pm : Created a new repository class in repository folder and modified the data with the data given in same file in blackboard.
 
 15 Novembwe 2022
-12:29am : At 7 pm i leave from collge and have gone to freshco for getting the necessary grocery for myself and now after prepearing 
+12:29am : At 7 pm i left from college and had gone to freshco for getting the necessary grocery for myself and now after prepearing 
           my dinner and having it, i am back to work.
 12:30am : Added CategoryRepository.cs class and ICategoryRepository.cs interface in Repository
 12:41am : CategoryRepository.cs is modified.
@@ -87,3 +87,4 @@ Taking break.....:)
 Just gone for a small break but back after almost 1 and half hr nap :(
 3:37am : Created a new interface IUnitOfWork.cs and update the code.
 3:39am : Created a new class UnitOfWork.cs and modified it's data.
+4:02am : Registered both files of UnitOfWork in Startup.cs.
