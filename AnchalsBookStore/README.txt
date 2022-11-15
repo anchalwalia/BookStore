@@ -79,4 +79,6 @@ Assignment 2
           my dinner and having it, i am back to work.
 12:30am : Added CategoryRepository.cs class and ICategoryRepository.cs interface in Repository
 12:41am : CategoryRepository.cs is modified.
-1:01pm : Update method in Categorypository.cs is modified.
+1:01am : Update method in Categorypository.cs is modified.
+1:30am : Created new interface ISP_Call.cs which extends IDisposible.
+1:33am : Installed Dapper.
