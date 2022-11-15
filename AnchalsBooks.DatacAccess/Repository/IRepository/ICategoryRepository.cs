@@ -1,10 +1,12 @@
-﻿using System;
+﻿using AnchalsBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AnchalsBooks.DatacAccess.Repository.IRepository
 {
-    internal interface ICategoryRepository
+   public interface ICategoryRepository : IRepository<Category>
     {
+        void Update(Category category);
     }
 }
