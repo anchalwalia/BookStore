@@ -47,7 +47,7 @@ Assignment 2
 3:59pm : Moved the HomeController.cs to Controller file in Area and deleted models and data from it.
 4:01pm : Defined the controller in HomeController.cs.
 4:02pm : Moved Home in Views to Area in view and then modified the namespace in HomeController.cs.
-4:13pm : IIs express error is occured and the error is in dll file so restarted  IIs service and resolved the error. Finally it solved and
+4:13pm : IIs express error is occured and the error is in dll file so restarted from task manager IIs service and resolved the error. Finally it solved and
          the project run.
 4:20pm :  Both _View files are also pasted in Area.
 4:24pm : Modified the path of _ViewStart.cshtml.
@@ -73,3 +73,6 @@ Assignment 2
 6:28pm : Created new folder Repository and also add a interface IRepository.cs
 6:34pm : Added Crud operations in IRepository.cs.
 6:55pm : Created a new repository class in repository folder and modified the data with the data given in same file in blackboard.
+12:29am : At 7 pm i leave from collge and have gone to freshco for getting the necessary grocery for myself and now after prepearing 
+          my dinner and having it, i am back to work.
+12:30am : Added CategoryRepository.cs and ICategoryRepository.cs in Repository.
