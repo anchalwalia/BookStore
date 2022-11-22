@@ -94,3 +94,6 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 4:46am :  Moved the Category link to content Management drop down.
 8:17am : Back after a second nap.
 8:18pm : Downloaded script.js from blackboard and added it to js file.
+
+21 November 2022
+11:29pm: Added section call to category.cs.
