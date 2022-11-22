@@ -97,3 +97,4 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 
 21 November 2022
 11:29pm: Added section call to category.cs.
+11:42pm : Activated buttons using the upsert action.

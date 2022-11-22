@@ -1,4 +1,5 @@
 ﻿using AnchalsBooks.DatacAccess.Repository.IRepository;
+using AnchalsBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnchalsBookStore.Areas.Admin
@@ -16,6 +17,24 @@ namespace AnchalsBookStore.Areas.Admin
         {
             return View();
         }
+
+        public IActionResult Upsert(int? id) //action method for upsert
+        {
+            Category category = new Category();  // using AnchalsBooks.Models;
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            //this is for edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View();
+        }
+
 
         //API calls here
         #region API CALLS
