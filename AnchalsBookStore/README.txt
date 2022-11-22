@@ -100,3 +100,4 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 11:42pm : Added IAction result.
 11:53pm : Added the view and copied html from Category UpsertView.html given in blackboard.
 12:09am : Created partial view for edit and back.
+12:25am : Modified the Upsert.cshtml.
