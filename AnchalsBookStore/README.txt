@@ -110,3 +110,28 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 
 {Part 3}
 12:30am : Started the part 3.Firstly, created CoveType.cs in model's folder.
+1:14am : Gave id and name to covertype.cs 
+1:20am : Added a interface and named IcoverTypeRepository and changed its class.
+1:26am : A new covertype class added.
+1:32am : Modified IUnitOfWork and UnitOfWork and add covertype in it.
+1:36am : Created a new migration for CoverType and updated to database.
+1:40am : Added New Controler and changed and added action which are required.
+1:45am : Added covertype index view for database.
+1:50am : Delete and update method  is done using the API call.
+1:56am : Added covertype link to navgation bar.
+2:01am : In models project, added a class (Product), Added code from slide and set class to public.
+2:10am : Added product reference to database in ApplicationDbcontext.cs file.
+2:19am : by using add-migration command a new migration file '20221124075347_AddProductToDb.cs'  added.
+2:26am : In repository folder, Added a new class for Product and a interface for product. 
+2:34am : In IUnitOfWork and UnitOfWork file added Product.
+2:34am : I checked the application and it worked.
+2:39am : Added a new controller for product.
+2:46am : Created a new viewmodel for product in model project.
+2:52am : Added and modified ProductVM class and Install-Package Microsoft.AspNetCore.Mvc.ViewFeatures.
+2:56am : Modified product contrller for IActionResult upsert calls.
+3:01am : Including covertype and category in API call.
+3:06am : In productcontroll file, Added a new index view. Add code from view/ category and modfied product list header and its properties.
+3:07am : Added a reference of product.js file in index file.
+3:10am : Copied and paste data from category.js file into product.js file and changed its url for product.
+3:19am : Added link product link in navgation bar.
+3:20am : Tested the app and its running without error, according the slides.
