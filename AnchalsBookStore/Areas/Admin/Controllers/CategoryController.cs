@@ -2,7 +2,7 @@
 using AnchalsBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AnchalsBookStore.Areas.Admin
+namespace AnchalsBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller
@@ -41,9 +41,9 @@ namespace AnchalsBookStore.Areas.Admin
 
         public IActionResult Upsert(Category Category)
         {
-            if(ModelState.IsValid)    //checks all validations in the modelto increase security
+            if (ModelState.IsValid)    //checks all validations in the modelto increase security
             {
-                if(Category.Id == 0)
+                if (Category.Id == 0)
                 {
                     _unitOfWork.Category.Add(Category);
                 }
@@ -51,10 +51,10 @@ namespace AnchalsBookStore.Areas.Admin
                 {
                     _unitOfWork.Category.Update(Category);
                 }
-                _unitOfWork.Save();
+                _unitOfWork.save();
                 return RedirectToAction(nameof(Index));    //to see all categories
             }
-            return View(Category);  
+            return View(Category);
         }
 
 
@@ -62,7 +62,7 @@ namespace AnchalsBookStore.Areas.Admin
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
-       
+
         {
             //return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
@@ -70,15 +70,15 @@ namespace AnchalsBookStore.Areas.Admin
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id )
+        public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Category.Get(id);   
+            var objFromDb = _unitOfWork.Category.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
             _unitOfWork.Category.Remove(objFromDb);
-            _unitOfWork.Save();
+            _unitOfWork.save();
             return Json(new { success = true, message = "Delete successful" });
         }
         #endregion
