@@ -106,4 +106,5 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 
 23 November 2022
 10:55pm : Created an Upsert action method in CategoryController.cs.
+11:19pm : Added the API call for HTTPDelete in CategoryController.cs.
 
