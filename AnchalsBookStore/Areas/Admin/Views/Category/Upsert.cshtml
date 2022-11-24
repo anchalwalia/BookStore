@@ -29,11 +29,11 @@
                 <div class="col-8 offset-4">
                    @if(Model.Id != 0)
                    {
-                       <partial name = "_EditANdBackToList" model="Model.Id"/>
+                        <partial name="_EditAndBackToListButton" model="Model.Id" />
                    }
                    else
                    {
-                       <partial name="_CreateAndBackToList" />
+                        <partial name="_CreateAndBackToListButton" />
                    }
                 </div>
             </div>

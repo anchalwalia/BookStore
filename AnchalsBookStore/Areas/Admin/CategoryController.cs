@@ -32,7 +32,29 @@ namespace AnchalsBookStore.Areas.Admin
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
+        }
+
+        //use HTTP Post to define the post-action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult Upsert(Category Category)
+        {
+            if(ModelState.IsValid)    //checks all validations in the modelto increase security
+            {
+                if(Category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(Category);
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(Category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));    //to see all categories
+            }
+            return View(Category);  
         }
 
 
