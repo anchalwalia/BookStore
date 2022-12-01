@@ -134,3 +134,22 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 3:10am : Copied and paste data from category.js file into product.js file and changed its url for product.
 3:19am : Added link product link in navgation bar.
 3:20am : Tested the app and its running without error, according the slides.
+
+2022/11/30
+10::46pm : Added upsert post method.
+10:47pm : Moving forward,for upsert product created view file.
+
+{Part 4}
+10:48pm : In category name,changed the name written in uppercase to lowercase.
+10:49pm : In upsert.cshtml changed the category list  to covertype list.
+10:51pm : Take Listprice instead of price.
+10:56pm : Added more prices like price50,price100 for product.
+10:58pm : New migration file 20221201035734_AddPrice50ToProduct added for prices of product.
+10:59pm : Delete api metrhod is updated.
+11:01pm : Added new input areas for new prices. 
+11:04pm : In order to show product list in home, it is added to index view.
+11:05pm : All books are shown from product list.
+11:09pm : Added image to the update field.
+11:10pm : New folder for images is added.
+11:12pm : Taking a small break for having my dinner.
+11:41pm : Back. Build the project and run it.
