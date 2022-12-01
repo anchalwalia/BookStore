@@ -140,11 +140,17 @@ namespace AnchalsBookStore.Areas.Admin.Controllers
             var objFromDb = _unitOfWork.Product.Get(id);
             if (objFromDb == null)
             {
-                return Json(new { success = false, message = "Error While deleting" });
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            string webRootPath = _hostEnvironment.WebRootPath;
+            var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
             }
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.save();
-            return Json(new { success = true, message = "Delete successful" });
+            return Json(new { success = true, message = "Delete Successful" });
         }
 
         #endregion
