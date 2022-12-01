@@ -1,5 +1,5 @@
 Name : Anchal Walia
-Date : 8 November 2022
+Date : 2022/11/8
 Assignment 2 
 
 {Part 1}
@@ -36,8 +36,7 @@ Assignment 2
 4:20am : Build the project but again it showing the error in ErrorViewModel.
 4:24am : After solving the previous error. Now getting the new two errors:(.So much tired and sleepy but have to complete the assignment:(.
 
-
-14 November 2022
+ 2022/11/14
 3:23pm : Changed the reference name of model in error.cshtml file.
 3:34pm : Added Static class SD.cs in utility project and modeified it's property.
 3:37pm : Added project reference to the main project.
@@ -74,7 +73,7 @@ Assignment 2
 6:34pm : Added Crud operations in IRepository.cs.
 6:55pm : Created a new repository class in repository folder and modified the data with the data given in same file in blackboard.
 
-15 Novembwe 2022
+2022/11/15
 12:29am : At 7 pm i left from college and had gone to freshco for getting the necessary grocery for myself and now after prepearing 
           my dinner and having it, i am back to work.
 12:30am : Added CategoryRepository.cs class and ICategoryRepository.cs interface in Repository
@@ -96,7 +95,7 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 8:17am : Back after a second nap.
 8:18pm : Downloaded script.js from blackboard and added it to js file.
 
-21 November 2022
+2022/11/21
 11:29pm: Added section call to category.cs.
 11:42pm : Added IAction result.
 11:53pm : Added the view and copied html from Category UpsertView.html given in blackboard.
@@ -104,7 +103,7 @@ Just gone for a small break but back after almost 1 and half hr nap :(
 12:25am : Modified the Upsert.cshtml.
 12:28am : Added the asp-action to the Index.cshtml.
 
-23 November 2022
+2022/11/23
 10:55pm : Created an Upsert action method in CategoryController.cs.
 11:19pm : Added the API call for HTTPDelete in CategoryController.cs.
 
